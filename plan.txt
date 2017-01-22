@@ -1,0 +1,40 @@
+Terrian:
+- functions to manipulate terrian
+- height map
+- water height map
+
+Zoneing:
+- Functions to manipulate zoneing
+- Array of types
+
+Lines
+- Road 
+- Electric
+- water
+(saved as vectors in a linked list)
+
+- Array Reachable by road
+- Array Reachable by Wire
+- Array Reachable by water.
+
+Buildings:
+- Building array
+	- location
+	- type
+
+People:
+- Building Home(s)
+- Place(s) of Employment
+
+Businesses:
+- Buildings
+- workers
+- funds
+- Product(s)
+	- Type
+	- quality
+	- Cost to make
+- Stock
+	- Price
+	- Shareholders
+	- dividends
