@@ -10,6 +10,9 @@ class Terrain {
 public:
   Terrain();
   Terrain(int x, int y);
+  void simulateRain();
+  void setWaterMap();
+
   ~Terrain();
 
 private:
