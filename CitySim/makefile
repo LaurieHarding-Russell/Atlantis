@@ -3,8 +3,8 @@ CFLAGS = -g -std=c++11 -lpthread
 
 CitySim : citySim.cpp house.o
 
-house.o :
-	cd house && $(MAKE)
+terrain.o :
+	cd terrain && $(MAKE)
 
 
 test:
