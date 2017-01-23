@@ -13,9 +13,13 @@ public:
   void simulateRain();
   void setWaterMap();
 
+  void calculateWaterFlow();
+
   ~Terrain();
 
 private:
+  void flowCalculation(float currentHeight, int currentX, int currentY, int tooX, int tooY);
+
   int sizeX;
   int sizeY;
   float** heightMap;
