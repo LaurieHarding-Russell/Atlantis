@@ -1,0 +1,6 @@
+cc_library(
+    name = "household",
+    srcs = ["household.cpp"],
+    hdrs = ["household.h"],
+    visibility = ["//visibility:public"]
+)

@@ -10,9 +10,13 @@ class Terrain {
 public:
   Terrain();
   Terrain(int x, int y);
-  void simulateRain();
-  void setWaterMap();
 
+  void generateHeightMap();
+  void simulateRain();
+
+  /*
+  Should be called continuasly in a loop.
+  */
   void calculateWaterFlow();
 
   ~Terrain();

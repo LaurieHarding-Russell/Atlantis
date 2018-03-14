@@ -42,10 +42,10 @@ void Terrain::flowCalculation(float currentHeight, int currentX, int currentY, i
 }
 
 void Terrain::calculateWaterFlow() {
+
   for (int x = 1; x < sizeX -1; x++) {
     for (int y = 1; y < sizeY -1; y++) {
       float currentHeight = heightMap[x][y] + waterHeightMap[x][y];
-
       if (currentHeight > heightMap[x-1][y-1] + waterHeightMap[x-1][y-1]) {
         flowCalculation(currentHeight, x, y, x-1, y-1);
       } else if (currentHeight > heightMap[x][y-1] + waterHeightMap[x][y-1]) {

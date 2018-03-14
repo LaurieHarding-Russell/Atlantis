@@ -1,0 +1,6 @@
+cc_library(
+    name = "terrain",
+    srcs = ["terrain.cpp"],
+    hdrs = ["terrain.h"],
+    visibility = ["//visibility:public"]
+)

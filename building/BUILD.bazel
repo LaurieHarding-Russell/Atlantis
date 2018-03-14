@@ -1,0 +1,6 @@
+cc_library(
+    name = "building",
+    srcs = ["building.cpp"],
+    hdrs = ["building.h"],
+    visibility = ["//visibility:public"]
+)
